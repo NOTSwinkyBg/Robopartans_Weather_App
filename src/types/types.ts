@@ -14,7 +14,7 @@ export interface WeatherData {
   city: CityInfo;
 }
 export interface CityInfo{
-    id: 'ruse' | 'sofia' | 'varna' | 'plovdiv';
+    id: 'ruse' | 'sofia' | 'varna' | 'plovdiv' | 'burgas';
     name: string;
     lat: number;
     lon: number;

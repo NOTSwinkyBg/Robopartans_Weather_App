@@ -3,9 +3,6 @@ import WeatherDisplay from './components/WeatherDisplay';
 import Home from './components/Home';
 import type { WeatherData, CityInfo } from './types/types';
 
-
-
-
 export default function WeatherApp() {
   const [currentCity, setCurrentCity] = useState<CityInfo | null>(null);
   const [data, setData] = useState<WeatherData | null>(null);
@@ -94,7 +91,7 @@ export default function WeatherApp() {
           {currentCity && (
             <button
               onClick={() => setCurrentCity(null)}
-              className=''
+              className='absolute left-6 top-6 md:static mr-4 text-gray-400 hover:text-indigo-400 transition text-lg'
               >
                 &larr; Назад
               </button>
