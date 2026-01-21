@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 export type PageType = 'home' | 'games';
-import EasterEgg from "./EasterEgg";
+// import EasterEgg from "./EasterEgg";
 
 const Layout: React.FC= () => {
 
@@ -14,7 +14,7 @@ const Layout: React.FC= () => {
     return (
         <div className="min-h-screen flex flex-col bg-gray-900 text-white font-sans">
             {/* Header */}
-            <EasterEgg/>
+            {/* <EasterEgg/> */}
             <header className="bg-gray-800 shadow-lg border-b border-gray-700 sticky top-0 z-50">
                 <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
                     {/* LOGO */}
